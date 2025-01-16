@@ -6,13 +6,13 @@ export const Bio = {
     "Devops Engineer",
   ],
   description:
-    "I’m a Java full-stack developer who can build industrial-level applications solo (with a little patience). I juggle backend, frontend, databases, system design, and DevOps like a pro. With 120K+ Instagram followers, I share DSA and coding tips, and as a TopMate mentor, I’ve helped 300+ people land jobs. Don’t underestimate me!",
-  github: "https://github.com/HimanshuSingour",
-  resume: "https://drive.google.com/file/d/1mAgpS4vJNDjbslKRxOkx-CL4KWo9emIj/view?usp=share_link",
-  linkedin: "https://www.linkedin.com/in/himanshu-singour-95627b222/",
-  twitter: "https://twitter.com/Himmu_S03",
-  insta: "https://www.instagram.com/endless_success___/",
-  topmate: "https://topmate.io/himanshu_singour",
+    "I’m a DevOps Engineer who optimizes development and deployment with Docker, Kubernetes, AWS, and Linux. I handle CI/CD pipelines, cloud integration, and container orchestration like a pro. With full-stack skills in MERN, I ensure smooth app performance from frontend to backend. Don’t underestimate me!",
+  github: "https://github.com/Kartikk-26",
+  resume: "https://docs.google.com/document/d/1k3SQcuiZYaznFzq2Aa9AM-OCwVPM1zzFDXZGWROKR-4/edit?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/-kartikjain/",
+  twitter: "https://x.com/TechieKartik3",
+  insta: "https://www.instagram.com/edits.kartikk",
+  topmate: "https://topmate.io/kartikjain",
 };
 
 export const skills = [
