@@ -17,88 +17,6 @@ export const Bio = {
 
 export const skills = [
 
-
-
-  {
-    title: "Backend",
-    skills: [
-
-      {
-        name: "Spring Framework",
-        image: "https://media.licdn.com/dms/image/D4D12AQEICFOK-z0akA/article-cover_image-shrink_720_1280/0/1656604745399?e=2147483647&v=beta&t=-Fjm5QYiJOJNzJ89xGv9VYPNxMNxqIX4jscMWXB6VaM",
-      },
-      {
-        name: "Microservices",
-        image:
-          "https://t4.ftcdn.net/jpg/03/85/29/69/360_F_385296927_b9V4skbl94TzxL8AiVAMGdpp9hFeZat0.jpg",
-      },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name: "Apache Kafka",
-        image:
-          "https://w1.pngwing.com/pngs/489/830/png-transparent-linkedin-logo-big-data-user-profile-microsoft-access-apache-kafka-computer-management-apache-spark-thumbnail.png",
-      },
-
-      {
-        name: "Hibernate",
-        image:
-          "https://cdn.freebiesupply.com/logos/thumbs/2x/hibernate-logo.png",
-      },
-
-      {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
-
-      {
-        name: "Express Js",
-        image: "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
-      },
-
-      {
-        name: "Apache Camel",
-        image:
-          "https://i.pinimg.com/originals/00/dc/03/00dc0377822a2698d1575e3cec6a9258.png",
-      },
-     
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-    ],
-  },
-
-  {
-    title: "SDE Designs",
-    skills: [
-      {
-        name: "System Design HLD",
-        image:
-          "https://cdn.iconscout.com/icon/premium/png-256-thumb/system-design-5347949-4460888.png",
-      },
-      {
-        name: "System Design LLD",
-        image:
-          "https://cdn.iconscout.com/icon/premium/png-256-thumb/system-design-5347949-4460888.png",
-      },
-      {
-        name: "Microservices Designs Patterns",
-        image:
-          "https://w1.pngwing.com/pngs/535/256/png-transparent-microservices-text-computer-software-line-circle-area-diagram-symmetry-organization-thumbnail.png",
-      },
-      {
-        name: "Coding Design Patterns",
-        image:
-          "https://w1.pngwing.com/pngs/561/274/png-transparent-cartoon-book-reactive-design-patterns-distributed-computing-computer-programming-system-programming-ebook-edition-application-software-computer-network-blue-thumbnail.png",
-      },
-    ],
-  },
-
   {
     title: "Frontend",
     skills: [
@@ -117,9 +35,9 @@ export const skills = [
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
       {
-        name: "CSS",
+        name: "TailWind CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg ",
       },
       {
         name: "JavaScript",
@@ -142,6 +60,100 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png",
       },
 
+    ],
+  },
+
+  {
+    title: "Backend",
+    skills: [      
+      {
+        name: "Microservices",
+        image:
+          "https://t4.ftcdn.net/jpg/03/85/29/69/360_F_385296927_b9V4skbl94TzxL8AiVAMGdpp9hFeZat0.jpg",
+      },
+      {
+        name: "MySQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      {
+        name: "Apache Kafka",
+        image:
+          "https://w1.pngwing.com/pngs/489/830/png-transparent-linkedin-logo-big-data-user-profile-microsoft-access-apache-kafka-computer-management-apache-spark-thumbnail.png",
+      },
+
+      {
+        name: "Node Js",
+        image: "https://nodejs.org/static/images/logo.svg",
+      },
+
+      {
+        name: "Express Js",
+        image: "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+      },
+     
+      {
+        name: "MongoDB",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+    ],
+  },
+
+  {
+    title: "DevOps",
+    skills: [
+      {
+        name: "Docker",
+        image:
+          "https://wiki.hornbill.com/images/7/70/Docker_logo.png",
+      },
+      {
+        name: "Kubernetes",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png",
+      },
+      {
+        name: "AWS",
+        image:
+          "https://www.pngall.com/wp-content/uploads/13/AWS-Logo-PNG-File.png",
+      },
+      {
+        name: "Linux",
+        image:
+          "https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo.png",
+      },
+      {
+        name: "Google Cloud",
+        image:
+          "https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Emblem.png",
+      },
+      {
+        name: "Jenkins CI/CD",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png",
+      },
+    ],
+  },
+
+  {
+    title: "SDE Designs",
+    skills: [
+      {
+        name: "Microservices Designs Patterns",
+        image:
+          "https://w1.pngwing.com/pngs/535/256/png-transparent-microservices-text-computer-software-line-circle-area-diagram-symmetry-organization-thumbnail.png",
+      },
+      {
+        name: "Coding Design Patterns",
+        image:
+          "https://w1.pngwing.com/pngs/561/274/png-transparent-cartoon-book-reactive-design-patterns-distributed-computing-computer-programming-system-programming-ebook-edition-application-software-computer-network-blue-thumbnail.png",
+      },
     ],
   },
 
@@ -171,38 +183,9 @@ export const skills = [
     ],
   },
   
+
   {
-    title: "Devops",
-    skills: [
-      {
-        name: "Docker",
-        image:
-          "https://wiki.hornbill.com/images/7/70/Docker_logo.png",
-      },
-      {
-        name: "Kubernetes",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png",
-      },
-      {
-        name: "AWS",
-        image:
-          "https://www.pngall.com/wp-content/uploads/13/AWS-Logo-PNG-File.png",
-      },
-      {
-        name: "Linux",
-        image:
-          "https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo.png",
-      },
-      {
-        name: "Jenkins CI/CD",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png",
-      },
-    ],
-  },
-  {
-    title: "Others",
+    title: "Other Tools",
     skills: [
       {
         name: "Git",
@@ -244,17 +227,7 @@ export const skills = [
       {
         name: "Intellij IDEA",
         image:
-          "https://cdn.freebiesupply.com/logos/large/2x/intellij-idea-1-logo-svg-vector.svg",
-      },
-      {
-        name: "Sublime Text",
-        image:
-          "https://static-00.iconduck.com/assets.00/sublime-text-icon-1024x1024-h15zusdi.png",
-      },
-      {
-        name: "Offset Explorer 2 (Kafka)",
-        image:
-          "https://static.macupdate.com/products/53532/l/offset-explorer-logo.png?v=1633349541",
+          "https://cdn.freebiesupply.com/logos/large/2x/intellij-idea-1-logo-black-and-white.png",
       },
     ],
   },
