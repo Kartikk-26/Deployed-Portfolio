@@ -111,12 +111,17 @@ export const skills = [
       {
         name: "Docker",
         image:
-          "https://wiki.hornbill.com/images/7/70/Docker_logo.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJl4fp0SkQbTPU5ZxVl6AKWYuKCwM0gIhNtQ&s",
       },
       {
         name: "Kubernetes",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png",
+      },
+      {
+        name: "Ansible",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/0/05/Ansible_Logo.png",
       },
       {
         name: "AWS",
@@ -131,12 +136,17 @@ export const skills = [
       {
         name: "Google Cloud",
         image:
-          "https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Emblem.png",
+          "https://static-00.iconduck.com/assets.00/google-cloud-icon-512x412-8rnz6wkz.png",
       },
       {
         name: "Jenkins CI/CD",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png",
+      },
+      {
+        name: "Server Management  ",
+        image:
+          "https://www.pngall.com/wp-content/uploads/4/World-Wide-Web-PNG-Pic.png",
       },
     ],
   },
@@ -216,7 +226,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+          "https://avatars.slack-edge.com/2024-04-05/6934042159649_ac803d1cddbcbef8f110_512.png",
       },
      
       {
@@ -227,7 +237,7 @@ export const skills = [
       {
         name: "Intellij IDEA",
         image:
-          "https://cdn.freebiesupply.com/logos/large/2x/intellij-idea-1-logo-black-and-white.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8DHsXL02F-7HgrLrAQyILRpPba_r83PiQ9Q&s",
       },
     ],
   },
@@ -310,29 +320,29 @@ export const education = [
 
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C560BAQGVF2qj__3qtg/company-logo_400_400/0/1646318126580?e=2147483647&v=beta&t=m_pWngulU4pmV7TEjPVS2V6BCiKactu8PRf0FGQoWwk",
-    school: "Oriental College Of technology Bhopal",
-    date: "May 2018 - May 2022",
-    desc: "I have done my graducation in Bachelor's degree in Electronic and Communication Engineering at Oriental College Of technology, Bhopal. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. ",
-    degree: "Bachelor of Technology - BTech, Electronic And Communication Engineering",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAirhegVjM2RMeENecaUc53f0mNMhoRt74mQ&s",
+    school: "Techno India NJR Institute Of Technology",
+    date: "May 2022 - May 2026",
+    desc: "I am currently pursuing a Bachelor of Technology (B.Tech) in Computer Science Engineering at Techno India NJR Institute of Technology. My coursework includes Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. ",
+    degree: "Bachelor of Technology - BTech, Computer Science Engineering",
   },
 
   {
     id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6KtCz4kQ5SEhlbeDe2DO8AuOxdyrW1UmrZKzsnwEfZcmcV0QNJsX2I82DZcfC_Oq_cow&usqp=CAU",
-    school: "Gyan Ganga Internation School Jabalpur",
-    date: "Apr 2017 - Mar 2018",
-    desc: "I completed my class 12 high school education at Gyan Ganga Internation School, Jabalpur, where I studied Science with Computer Science.",
-    degree: "CBSC(XII), Science with Computer",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP2CmRgHti7ALeOP1U3GlP5pzglaNxEAXIpg&s",
+    school: "Rockwoods High School Udaipur",
+    date: "Apr 2021 - Mar 2022",
+    desc: "I completed my Class 12 high school education at Rockwoods High School, Udaipur, where I studied Science with Computer Science. I also had the honor of serving as the School Captain.",
+    degree: "CBSE(XII), Science with Computer",
   },
 
   {
     id: 2,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6KtCz4kQ5SEhlbeDe2DO8AuOxdyrW1UmrZKzsnwEfZcmcV0QNJsX2I82DZcfC_Oq_cow&usqp=CAU",
-    school: "Gyan Ganga Internation School Jabalpur",
-    date: "Apr 2015 - Mar 2016",
-    desc: "I completed my class 10 education at Gyan Ganga Internation School, Jabalpur, where I studied Science with Computer Application.",
-    degree: "CBSC(X), Science with Computer",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP2CmRgHti7ALeOP1U3GlP5pzglaNxEAXIpg&s",
+    school: "Rockwoods High School Udaipur",
+    date: "Apr 2019 - Mar 2020",
+    desc: "I completed my class 10 education at Rockwoods High School Udaipur where I studied Science with Computer Application.",
+    degree: "CBSE(X), Science with Computer",
   },
 
 
@@ -341,63 +351,74 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "Bank Of Bharat (BOB)",
-    date: "Jun 2023 - Aug 2023",
-    description:
-      "implemented all the functionalities that a typical bank application has in the backend.",
-    image:
-      "https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2017/10/16/Photos/Incoming/IndusInd-kTRG--621x414@LiveMint.jpg",
-    tags: [
-      "Spring Boot",
-      "Spring MVC",
-      "Hibernate",
-      "Spring Cloud",
-      "Spring Data",
-      "CI/CD",
-      "Apache Camel",
-      "MongoDb",
-      "Msql",
-      "Microservices",
+    "id": 0,
+    "title": "WebifyMart",
+    "date": "Aug 2024 - Oct 2024",
+    "description": "A user-friendly E-commerce platform offering seamless shopping and efficient product management. The frontend leverages React Hook Form with Zod, Redux Toolkit, Axios, and RBAC, while the backend uses Express, Node.js, and Mongoose for MongoDB integration. Features include JWT and Google OAuth 2.0 for authentication, Stripe for payments, and Express-Session for session management.",
+    "image": "https://plus.unsplash.com/premium_photo-1728874855780-1b3a24276749?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": [
+        "ReactJs",
+        "Tailwind CSS",
+        "JavaScript",
+        "Redux",
+        "Node.js",
+        "Express.js",
+        "REST API",
+        "MongoDB",
+        "Postman API",
+        "Google OAuth 2.0",
     ],
-    category: "web app",
-    github: "https://github.com/HimanshuSingour/Bank-Of-Bharat-BOB",
-  },
-  {
-    id: 0,
-    title: "AlgorithmXlr8",
-    date: "Apr 2023 - May 2023",
-    description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://i.ibb.co/NZY49cJ/SCR-20240511-bpyw.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-   
-  },
-  {
-    id: 1,
-    title: "UPI Payment Application",
-    date: "Oct 2022 - Present",
-    description:
-      "UPI payment backend, built on Spring Boot and Microservices, integrates design patterns for streamlined operations and security.",
-    image:
-      "https://assets-global.website-files.com/63abfe1dce1c7d5156ec0d56/64b7bc80ca5573c38df66efb_upi_apps_thumbnail.webp",
-    tags: [
-      "Spring Framework",
-      "Micorservice Arcticture",
-      "Design Patterns",
-      "Apache Kafka",
-      "Apache Camel",
-    ],
+    "category": "web app",
+    "github": "https://github.com/Kartikk-26/WebifyMart-Project",
+    "webapp": "https://webify-mart-project-3.vercel.app/login"
+},
 
-    github: "https://github.com/HimanshuSingour/UPI-Payment-Application",
-
-  },
+{
+  "id": 1,
+  "title": "Patient Pro",
+  "date": "Oct 2024 - Dec 2024",
+  "description": "The Patient Management System is a real-time healthcare platform designed to streamline patient registration, appointment scheduling, and medical record management with secure authentication and SMS notifications. Built with Next.js and TailwindCSS, it offers a responsive interface and seamless communication through SMS notifications.",
+  "image": "https://mir-s3-cdn-cf.behance.net/projects/404/8b1a0e136821989.Y3JvcCw4MDgsNjMyLDAsMA.png",
+  "tags": [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "JavaScript",
+      "SMS Integration",
+      "Authentication",
+      "Postman API",
+      "JWT",
+      "Google OAuth 2.0",
+      "Appwrite"
+  ],
+  "category": "web app",
+  "github": "https://github.com/Kartikk-26",
+  "webapp": "https://github.com/Kartikk-26"
+},
+{
+  "id": 2,
+  "title": "2048 Docker Game",
+  "date": "Jan 2025 - Feb 2025",
+  "description": "Developed and deployed the classic 2048 game using Docker containers and AWS Elastic Beanstalk, showcasing a blend of gaming and cloud deployment skills. Built a responsive 2048 game, containerized it with Docker, and deployed it on AWS Elastic Beanstalk for seamless scalability and accessibility.",
+  "image": "https://miro.medium.com/v2/resize:fit:1080/0*6KPABEYb_XQDU8aL",
+  "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Docker",
+      "Docker Containers",
+      "AWS Elastic Beanstalk",
+      "Cloud Deployment",
+      "Scalability",
+      "AWS EC2",
+      "Nginx",
+  ],
+  "category": "game",
+  "github": "https://github.com/Kartikk-26/Dockerized-2048-Game",
+  "webapp": "https://dockerized-2048-game.netlify.app/"
+},
   {
-    id: 2,
+    id: 3,
     title: "RailWay Application",
     date: "Jan 2023 - Mar 2023",
     description:
@@ -416,7 +437,7 @@ export const projects = [
     
   },
   {
-    id: 3,
+    id: 4,
     title: "InfyGo Flight Booking System",
     date: "Dec 2021 - Apr 2022",
     description:
