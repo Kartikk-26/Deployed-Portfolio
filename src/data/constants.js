@@ -370,7 +370,7 @@ export const projects = [
     ],
     "category": "web app",
     "github": "https://github.com/Kartikk-26/WebifyMart-Project",
-    "webapp": "https://webify-mart-project-3.vercel.app/login"
+    "webapp": "https://webify-mart-project-3.vercel.app/"
 },
 
 {
