@@ -417,7 +417,7 @@ export const projects = [
   "github": "https://github.com/Kartikk-26/Dockerized-2048-Game",
   "webapp": "https://dockerized-2048-game.netlify.app/"
 },
-  {
+  /*{
     id: 3,
     title: "RailWay Application",
     date: "Jan 2023 - Mar 2023",
@@ -514,7 +514,7 @@ export const projects = [
     github: "https://github.com/HimanshuSingour/Google-Pay-Payment-Application-",
 
   }
-  
+  */
   
 
 ];
