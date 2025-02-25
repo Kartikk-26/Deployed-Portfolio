@@ -417,6 +417,73 @@ export const projects = [
   "github": "https://github.com/Kartikk-26/Dockerized-2048-Game",
   "webapp": "https://dockerized-2048-game.netlify.app/"
 },
+{
+  "id": 3,
+  "title": "Multi-Server Architecture Deployment",
+  "date": "Feb 2025 - Mar 2025",
+  "description": "Deployed a multi-server architecture integrating DNS, NFS, WordPress, and MariaDB (Master-Slave Replication) to ensure scalability, redundancy, and high availability. Implemented centralized storage, seamless web hosting, and database replication, creating a fault-tolerant cloud infrastructure.",
+  "image": "/Live.jpg",
+  "tags": [
+      "DNS",
+      "NFS",
+      "Web Server",
+      "MariaDB",
+      "Master-Slave Replication",
+      "Cloud Deployment",
+      //"High Availability",
+      "Scalability",
+      //"Redundancy",
+      //"Linux",
+      "AWS"
+  ],
+  "category": "cloud",
+  "github": "https://github.com/Kartikk-26/Scalable-Multi-Server-Architecture-Deployment.git",
+  "webapp": "http://kartik.sbs/"
+},
+{
+  "id": 4,
+  "title": "Website Deployment on AWS with Custom Domain",
+  "date": "Feb 2025 - Mar 2025",
+  "description": "Deployed a fully functional website on AWS and configured it with a custom domain (kartik.sbs). Managed hosting, DNS configuration, and SSL setup to ensure a secure and scalable web presence. Optimized performance and reliability using AWS services.",
+  "image": "/Domain.jpg",
+  "tags": [
+      "AWS",
+      "Hosting",
+      "Custom Domain",
+      "DNS Configuration",
+      "SSL",
+      "Scalability",
+      "Cloud Deployment",
+      "Route 53",
+      "EC2",
+      "S3"
+  ],
+  "category": "cloud",
+  "github": "https://github.com/Kartikk-26/DevOps-Training.git",
+  "webapp": "http://kartik.sbs/"
+},
+{
+  "id": 5,
+  "title": "Personal Portfolio Website",
+  "date": "Mar 2025",
+  "description": "Designed and developed a responsive portfolio website using React.js to showcase my projects, skills, and experience. Deployed on Netlify for seamless performance, scalability, and fast global access. Integrated smooth navigation, animations, and a modern UI/UX design.",
+  "image": "/Portfolio.jpg",
+  "tags": [
+      "React.js",
+      "Netlify",
+      "Portfolio",
+      "Front-End Development",
+      "JavaScript",
+      "Tailwind CSS",
+      "Responsive Design",
+      "UI/UX",
+      "Deployment",
+      //"Animations"
+  ],
+  "category": "web",
+  "github": "https://github.com/Kartikk-26/Private-Portfolio",
+  "webapp": "https://kartikjain.netlify.app/"
+},
   /*{
     id: 3,
     title: "RailWay Application",
