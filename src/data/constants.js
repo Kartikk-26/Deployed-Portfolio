@@ -466,7 +466,7 @@ export const projects = [
   "id": 5,
   "title": "Website Deployment on AWS with Custom Domain",
   "date": "Feb 2025 - Mar 2025",
-  "description": "Deployed a fully functional website on AWS and configured it with a custom domain. Managed hosting, DNS configuration, and SSL setup to ensure a secure and scalable web presence. Optimized performance and reliability using AWS services.",
+  "description": "Deployed a fully functional website on AWS and configured it with a custom domain. Managed hosting, DNS configuration, and SSL setup to ensure a secure and scalable web presence. Used S3 bucket to store data and Amazon Route 53 for DNS hosting and fast, efficient hosting. Optimized performance and reliability using AWS services.",
   "image": "/domain_website.png",
   "tags": [
       "AWS",
