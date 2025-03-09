@@ -436,7 +436,7 @@ export const projects = [
       //"Animations"
   ],
   "category": "web",
-  "github": "https://github.com/Kartikk-26/Private-Portfolio",
+  "github": "https://github.com/Kartikk-26",
   "webapp": "https://kartikjain.netlify.app/"
 },
 {
@@ -482,7 +482,7 @@ export const projects = [
   ],
   "category": "cloud",
   "github": "https://github.com/Kartikk-26/DevOps-Training.git",
-  "webapp": "https://kartik.sbs/"
+  "webapp": "https://kartikk.site/"
 },
 
 {
@@ -505,8 +505,30 @@ export const projects = [
   ],
   "category": "cloud",
   "github": "https://github.com/Kartikk-26/Multi-Server-AutoDeploy-with-Ansible",
-  "webapp": "https://watch.kartik.sbs/",
+  "webapp": "https://watches.kartik.sbs/",
+},
+{
+  "id": 7,
+  "title": "Secure Scalable AWS VPC Network",
+  "date": "Mar 2025",
+  "description": "Designed and deployed a secure and scalable AWS Virtual Private Cloud (VPC) with custom subnets, NAT and Internet Gateways, VPC Peering, and private database hosting for controlled access and efficient networking. Implemented subnet segmentation, security configurations, and inter-region connectivity while ensuring high availability and security.",
+  "image": "/VPC Working .jpg",
+  "tags": [
+    "AWS",
+    "VPC",
+    "VPC Peering",
+    "Networking",
+    "Security",
+    "Cloud",
+    //"Infrastructure",
+    //"DevOps",
+    "Automation"
+  ],
+  "category": "cloud",
+  "github": "https://github.com/Kartikk-26/Secure-Scalable-AWS-VPC-Network.git",
+  "webapp": "https://new.kartikk.site/"
 }
+
 
 
   /*{
