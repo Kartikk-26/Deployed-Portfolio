@@ -527,7 +527,28 @@ export const projects = [
   "category": "cloud",
   "github": "https://github.com/Kartikk-26/Secure-Scalable-AWS-VPC-Network.git",
   "webapp": "https://new.kartikk.site/"
+},
+{
+  "id": 8,
+  "title": "Automated Image Resizing and Transfer System",
+  "date": "Mar 2025",
+  "description": "Built a serverless image resizing system using AWS services. Users upload images to an S3 bucket, triggering an AWS Lambda function that processes and resizes the images. The resized images are stored in a separate S3 bucket, and Amazon SNS sends email notifications upon completion. CloudWatch ensures monitoring, while IAM roles enforce security, delivering a scalable, automated, and cost-efficient solution.",
+  "image": "/Overview.jpg",
+  "tags": [
+    "AWS",
+    "Lambda",
+    "S3 Bucket",
+    "SNS",
+    "Python",
+    "CloudWatch",
+    "Automation",
+    "DevOps"
+  ],
+  "category": "cloud",
+  "github": "https://github.com/Kartikk-26/AWS-AutoResize-Transfer-System.git",
+  "webapp": "https://kartik.sbs/"
 }
+
 
 
 
