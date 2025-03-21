@@ -421,11 +421,14 @@ export const projects = [
   "id": 3,
   "title": "Personal Portfolio Website",
   "date": "Mar 2025",
-  "description": "Designed and developed a responsive portfolio website using React.js to showcase my projects, skills, and experience. Deployed on Netlify for seamless performance, scalability, and fast global access. Integrated smooth navigation, animations, and a modern UI/UX design.",
+  "description": "Designed and developed a responsive portfolio website using React.js to showcase my projects, skills, and experience. Deployed using AWS EC2 for enhanced control and scalability, and secured with Certbot and SSL certification for a safe browsing experience. Integrated smooth navigation, animations, and a modern UI/UX design.",
   "image": "/Portfolio.jpg",
   "tags": [
       "React.js",
       "Netlify",
+      "AWS EC2",
+      "Certbot",
+      "SSL",
       "Portfolio",
       "Front-End Development",
       "JavaScript",
@@ -437,7 +440,7 @@ export const projects = [
   ],
   "category": "web",
   "github": "https://github.com/Kartikk-26",
-  "webapp": "https://kartikjain.netlify.app/"
+  "webapp": "https://new.kartikk.site/"
 },
 {
   "id": 4,
@@ -547,7 +550,28 @@ export const projects = [
   "category": "cloud",
   "github": "https://github.com/Kartikk-26/AWS-AutoResize-Transfer-System.git",
   "webapp": "https://kartik.sbs/"
+},
+{
+  "id": 9,
+  "title": "Django Application Deployment with Gunicorn and Nginx",
+  "date": "Mar 2025",
+  "description": "Successfully deployed a Django application on Ubuntu 22.04 by configuring Gunicorn as the application server and Nginx as the reverse proxy. The project involved setting up a secure, scalable, and production-ready environment with systemd for managing Gunicorn, UFW for firewall security, and Certbot for enabling HTTPS. This process improved application performance, ensured security, and optimized resource management.",
+  "image": "/Django_deployment.png",
+  "tags": [
+    "Django",
+    "Gunicorn",
+    "Nginx",
+    "Ubuntu",
+    "Certbot",
+    "DevOps",
+    "Web Deployment",
+    "SSL"
+  ],
+  "category": "web",
+  "github": "https://github.com/Kartikk-26/Django-Application-Deployment-on-EC2.git",
+  "webapp": "https://kartik.sbs/"
 }
+
 
 
 
