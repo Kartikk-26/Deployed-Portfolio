@@ -570,7 +570,28 @@ export const projects = [
   "category": "web",
   "github": "https://github.com/Kartikk-26/Django-Application-Deployment-on-EC2.git",
   "webapp": "https://kartik.sbs/"
+},
+{
+  "id": 10,
+  "title": "WordPress Deployment on Kubernetes Cluster",
+  "date": "Mar 2025",
+  "description": "Successfully deployed a WordPress application on a Kubernetes cluster with MySQL as the backend. The project involved setting up Kubernetes on Ubuntu 22.04 using kubeadm, configuring namespaces, deployments, services, and ConfigMaps. It ensured secure communication, scalability, and seamless interaction between WordPress and MySQL, with NodePort allowing external access to the application.",
+  "image": "/k8.jpg",
+  "tags": [
+    "WordPress",
+    "MySQL",
+    "Kubernetes",
+    "kubeadm",
+    "ConfigMap",
+    "DevOps",
+    "Container Orchestration",
+    "Web Deployment"
+  ],
+  "category": "cloud",
+  "github": "https://github.com/Kartikk-26/WordPress-Deployment-on-K8s.git",
+  "webapp": "https://github.com/Kartikk-26/WordPress-Deployment-on-K8s.git"
 }
+
 
 
 
