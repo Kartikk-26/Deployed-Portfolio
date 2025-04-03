@@ -351,6 +351,257 @@ export const education = [
 
 export const projects = [
   {
+    "id": 11,
+    "title": "CI/CD Pipeline Using Jenkins, Ansible & Docker on AWS EC2",
+    "date": "Apr 2025",
+    "description": "This project automates web application deployment using Jenkins, Ansible, and Docker on AWS EC2. A GitHub webhook triggers the CI/CD pipeline, where Jenkins fetches code, builds a Docker image, and Ansible deploys it. Docker Hub stores images for scalable and secure deployment. The final app runs in a Docker container on AWS EC2, accessible via its public IP.",
+    "image": "/Project Architecture.jpg",
+    "tags": [
+      "Jenkins",
+      "Ansible",
+      "Docker",
+      "AWS EC2",
+      "CI/CD",
+      "DevOps",
+      "Linux",
+      "Automation",
+      "Containerization",
+      "DockerHub",
+      "Github"
+    ],
+    "category": "devops",
+    "github": "https://github.com/Kartikk-26/CI-CD-Pipeline-Project.git",
+    "webapp": "https://github.com/Kartikk-26/CI-CD-Pipeline-Project/blob/main/Assests/visual.png"
+  },
+  
+  {
+    "id": 10,
+    "title": "WordPress Deployment on Kubernetes Cluster",
+    "date": "Mar 2025",
+    "description": "Successfully deployed a WordPress application on a Kubernetes cluster with MySQL as the backend. The project involved setting up Kubernetes on Ubuntu 22.04 using kubeadm, configuring namespaces, deployments, services, and ConfigMaps. It ensured secure communication, scalability, and seamless interaction between WordPress and MySQL, with NodePort allowing external access to the application.",
+    "image": "/k8.jpg",
+    "tags": [
+      "WordPress",
+      "MySQL",
+      "Kubernetes",
+      "kubeadm",
+      "ConfigMap",
+      "DevOps",
+      "Container Orchestration",
+      "Web Deployment"
+    ],
+    "category": "cloud",
+    "github": "https://github.com/Kartikk-26/WordPress-Deployment-on-K8s.git",
+    "webapp": "https://github.com/Kartikk-26/WordPress-Deployment-on-K8s.git"
+  },
+  
+  {
+    "id": 8,
+    "title": "Automated Image Resizing and Transfer System",
+    "date": "Mar 2025",
+    "description": "Built a serverless image resizing system using AWS services. Users upload images to an S3 bucket, triggering an AWS Lambda function that processes and resizes the images. The resized images are stored in a separate S3 bucket, and Amazon SNS sends email notifications upon completion. CloudWatch ensures monitoring, while IAM roles enforce security, delivering a scalable, automated, and cost-efficient solution.",
+    "image": "/Overview.jpg",
+    "tags": [
+      "AWS",
+      "Lambda",
+      "S3 Bucket",
+      "SNS",
+      "Python",
+      "CloudWatch",
+      "Automation",
+      "DevOps"
+    ],
+    "category": "cloud",
+    "github": "https://github.com/Kartikk-26/AWS-AutoResize-Transfer-System.git",
+    "webapp": "https://kartik.sbs/"
+  },
+
+  {
+    "id": 7,
+    "title": "Secure Scalable AWS VPC Network",
+    "date": "Mar 2025",
+    "description": "Designed and deployed a secure and scalable AWS Virtual Private Cloud (VPC) with custom subnets, NAT and Internet Gateways, VPC Peering, and private database hosting for controlled access and efficient networking. Implemented subnet segmentation, security configurations, and inter-region connectivity while ensuring high availability and security.",
+    "image": "/VPC Working .jpg",
+    "tags": [
+      "AWS",
+      "VPC",
+      "VPC Peering",
+      "Networking",
+      "Security",
+      "Cloud",
+      //"Infrastructure",
+      //"DevOps",
+      "Automation"
+    ],
+    "category": "cloud",
+    "github": "https://github.com/Kartikk-26/Secure-Scalable-AWS-VPC-Network.git",
+    "webapp": "https://new.kartikk.site/"
+  },
+
+  {
+    "id": 6,
+    "title": "Multi-Server Deployment with Ansible",
+    "date": "Mar 2025",
+    "description": "Implemented an automated website deployment on multiple EC2 instances using Ansible Playbooks. The setup includes Apache installation, website deployment from GitHub, and efficient configuration management across remote servers. Ensured high availability and scalability with redundant web servers.",
+    "image": "/ansibleproject.png",
+    "tags": [
+      "AWS",
+      "Ansible",
+      "EC2",
+      "Automation",
+      "Apache",
+      "DevOps",
+      //"Infrastructure as Code",
+      //"Scalability",
+      "Cloud Deployment",
+      //"Configuration Management"
+    ],
+    "category": "cloud",
+    "github": "https://github.com/Kartikk-26/Multi-Server-AutoDeploy-with-Ansible",
+    "webapp": "https://watches.kartik.sbs/",
+  },
+
+  {
+    "id": 9,
+    "title": "Django Application Deployment with Gunicorn and Nginx",
+    "date": "Mar 2025",
+    "description": "Successfully deployed a Django application on Ubuntu 22.04 by configuring Gunicorn as the application server and Nginx as the reverse proxy. The project involved setting up a secure, scalable, and production-ready environment with systemd for managing Gunicorn, UFW for firewall security, and Certbot for enabling HTTPS. This process improved application performance, ensured security, and optimized resource management.",
+    "image": "/Django_deployment.png",
+    "tags": [
+      "Django",
+      "Gunicorn",
+      "Nginx",
+      "Ubuntu",
+      "Certbot",
+      "DevOps",
+      "Web Deployment",
+      "SSL"
+    ],
+    "category": "web",
+    "github": "https://github.com/Kartikk-26/Django-Application-Deployment-on-EC2.git",
+    "webapp": "https://kartik.sbs/"
+  },
+
+  {
+    "id": 5,
+    "title": "Website Deployment on AWS with Custom Domain",
+    "date": "Feb 2025 - Mar 2025",
+    "description": "Deployed a fully functional website on AWS and configured it with a custom domain. Managed hosting, DNS configuration, and SSL setup to ensure a secure and scalable web presence. Used S3 bucket to store data and Amazon Route 53 for DNS hosting and fast, efficient hosting. Optimized performance and reliability using AWS services.",
+    "image": "/domain_website.png",
+    "tags": [
+        "AWS",
+        "Hosting",
+        "Custom Domain",
+        "DNS Configuration",
+        "SSL",
+        "Scalability",
+        "Cloud Deployment",
+        "Route 53",
+        "EC2",
+        "S3"
+    ],
+    "category": "cloud",
+    "github": "https://github.com/Kartikk-26/DevOps-Training.git",
+    "webapp": "https://kartikk.site/"
+  },
+
+  {
+    "id": 4,
+    "title": "Multi-Server Architecture Deployment",
+    "date": "Feb 2025 - Mar 2025",
+    "description": "Deployed a multi-server architecture integrating DNS, NFS, WordPress, and MariaDB (Master-Slave Replication) to ensure scalability, redundancy, and high availability. Implemented centralized storage, seamless web hosting, and database replication, creating a fault-tolerant cloud infrastructure.",
+    "image": "/Live.jpg",
+    "tags": [
+        "DNS",
+        "NFS",
+        "Web Server",
+        "MariaDB",
+        "Master-Slave Replication",
+        "Cloud Deployment",
+        //"High Availability",
+        "Scalability",
+        //"Redundancy",
+        //"Linux",
+        "AWS"
+    ],
+    "category": "cloud",
+    "github": "https://github.com/Kartikk-26/Scalable-Multi-Server-Architecture-Deployment.git",
+    "webapp": "https://kartik.sbs/"
+  },
+
+  {
+    "id": 3,
+    "title": "Personal Portfolio Website",
+    "date": "Mar 2025",
+    "description": "Designed and developed a responsive portfolio website using React.js to showcase my projects, skills, and experience. Deployed using AWS EC2 for enhanced control and scalability, and secured with Certbot and SSL certification for a safe browsing experience. Integrated smooth navigation, animations, and a modern UI/UX design.",
+    "image": "/Portfolio.jpg",
+    "tags": [
+        "React.js",
+        "Netlify",
+        "AWS EC2",
+        "Certbot",
+        "SSL",
+        "Portfolio",
+        "Front-End Development",
+        "JavaScript",
+        "Tailwind CSS",
+        "Responsive Design",
+        "UI/UX",
+        "Deployment",
+        //"Animations"
+    ],
+    "category": "web",
+    "github": "https://github.com/Kartikk-26",
+    "webapp": "https://new.kartikk.site/"
+  },
+
+  {
+    "id": 2,
+    "title": "2048 Docker Game",
+    "date": "Jan 2025 - Feb 2025",
+    "description": "Developed and deployed the classic 2048 game using Docker containers and AWS Elastic Beanstalk, showcasing a blend of gaming and cloud deployment skills. Built a responsive 2048 game, containerized it with Docker, and deployed it on AWS Elastic Beanstalk for seamless scalability and accessibility.",
+    "image": "https://miro.medium.com/v2/resize:fit:1080/0*6KPABEYb_XQDU8aL",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Docker",
+        "Docker Containers",
+        "AWS Elastic Beanstalk",
+        "Cloud Deployment",
+        "Scalability",
+        "AWS EC2",
+        "Nginx",
+    ],
+    "category": "game",
+    "github": "https://github.com/Kartikk-26/Dockerized-2048-Game",
+    "webapp": "https://dockerized-2048-game.netlify.app/"
+  },
+
+  {
+    "id": 1,
+    "title": "Patient Pro",
+    "date": "Oct 2024 - Dec 2024",
+    "description": "The Patient Management System is a real-time healthcare platform designed to streamline patient registration, appointment scheduling, and medical record management with secure authentication and SMS notifications. Built with Next.js and TailwindCSS, it offers a responsive interface and seamless communication through SMS notifications.",
+    "image": "https://mir-s3-cdn-cf.behance.net/projects/404/8b1a0e136821989.Y3JvcCw4MDgsNjMyLDAsMA.png",
+    "tags": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "JavaScript",
+        "SMS Integration",
+        "Authentication",
+        "Postman API",
+        "JWT",
+        "Google OAuth 2.0",
+        "Appwrite"
+    ],
+    "category": "web app",
+    "github": "https://github.com/Kartikk-26",
+    "webapp": "https://github.com/Kartikk-26"
+  },
+
+  {
     "id": 0,
     "title": "WebifyMart",
     "date": "Aug 2024 - Oct 2024",
@@ -373,224 +624,10 @@ export const projects = [
     "webapp": "https://webify-mart-project-3.vercel.app/"
 },
 
-{
-  "id": 1,
-  "title": "Patient Pro",
-  "date": "Oct 2024 - Dec 2024",
-  "description": "The Patient Management System is a real-time healthcare platform designed to streamline patient registration, appointment scheduling, and medical record management with secure authentication and SMS notifications. Built with Next.js and TailwindCSS, it offers a responsive interface and seamless communication through SMS notifications.",
-  "image": "https://mir-s3-cdn-cf.behance.net/projects/404/8b1a0e136821989.Y3JvcCw4MDgsNjMyLDAsMA.png",
-  "tags": [
-      "Next.js",
-      "TypeScript",
-      "TailwindCSS",
-      "JavaScript",
-      "SMS Integration",
-      "Authentication",
-      "Postman API",
-      "JWT",
-      "Google OAuth 2.0",
-      "Appwrite"
-  ],
-  "category": "web app",
-  "github": "https://github.com/Kartikk-26",
-  "webapp": "https://github.com/Kartikk-26"
-},
-{
-  "id": 2,
-  "title": "2048 Docker Game",
-  "date": "Jan 2025 - Feb 2025",
-  "description": "Developed and deployed the classic 2048 game using Docker containers and AWS Elastic Beanstalk, showcasing a blend of gaming and cloud deployment skills. Built a responsive 2048 game, containerized it with Docker, and deployed it on AWS Elastic Beanstalk for seamless scalability and accessibility.",
-  "image": "https://miro.medium.com/v2/resize:fit:1080/0*6KPABEYb_XQDU8aL",
-  "tags": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "Docker Containers",
-      "AWS Elastic Beanstalk",
-      "Cloud Deployment",
-      "Scalability",
-      "AWS EC2",
-      "Nginx",
-  ],
-  "category": "game",
-  "github": "https://github.com/Kartikk-26/Dockerized-2048-Game",
-  "webapp": "https://dockerized-2048-game.netlify.app/"
-},
-{
-  "id": 3,
-  "title": "Personal Portfolio Website",
-  "date": "Mar 2025",
-  "description": "Designed and developed a responsive portfolio website using React.js to showcase my projects, skills, and experience. Deployed using AWS EC2 for enhanced control and scalability, and secured with Certbot and SSL certification for a safe browsing experience. Integrated smooth navigation, animations, and a modern UI/UX design.",
-  "image": "/Portfolio.jpg",
-  "tags": [
-      "React.js",
-      "Netlify",
-      "AWS EC2",
-      "Certbot",
-      "SSL",
-      "Portfolio",
-      "Front-End Development",
-      "JavaScript",
-      "Tailwind CSS",
-      "Responsive Design",
-      "UI/UX",
-      "Deployment",
-      //"Animations"
-  ],
-  "category": "web",
-  "github": "https://github.com/Kartikk-26",
-  "webapp": "https://new.kartikk.site/"
-},
-{
-  "id": 4,
-  "title": "Multi-Server Architecture Deployment",
-  "date": "Feb 2025 - Mar 2025",
-  "description": "Deployed a multi-server architecture integrating DNS, NFS, WordPress, and MariaDB (Master-Slave Replication) to ensure scalability, redundancy, and high availability. Implemented centralized storage, seamless web hosting, and database replication, creating a fault-tolerant cloud infrastructure.",
-  "image": "/Live.jpg",
-  "tags": [
-      "DNS",
-      "NFS",
-      "Web Server",
-      "MariaDB",
-      "Master-Slave Replication",
-      "Cloud Deployment",
-      //"High Availability",
-      "Scalability",
-      //"Redundancy",
-      //"Linux",
-      "AWS"
-  ],
-  "category": "cloud",
-  "github": "https://github.com/Kartikk-26/Scalable-Multi-Server-Architecture-Deployment.git",
-  "webapp": "https://kartik.sbs/"
-},
-{
-  "id": 5,
-  "title": "Website Deployment on AWS with Custom Domain",
-  "date": "Feb 2025 - Mar 2025",
-  "description": "Deployed a fully functional website on AWS and configured it with a custom domain. Managed hosting, DNS configuration, and SSL setup to ensure a secure and scalable web presence. Used S3 bucket to store data and Amazon Route 53 for DNS hosting and fast, efficient hosting. Optimized performance and reliability using AWS services.",
-  "image": "/domain_website.png",
-  "tags": [
-      "AWS",
-      "Hosting",
-      "Custom Domain",
-      "DNS Configuration",
-      "SSL",
-      "Scalability",
-      "Cloud Deployment",
-      "Route 53",
-      "EC2",
-      "S3"
-  ],
-  "category": "cloud",
-  "github": "https://github.com/Kartikk-26/DevOps-Training.git",
-  "webapp": "https://kartikk.site/"
-},
 
-{
-  "id": 6,
-  "title": "Multi-Server Deployment with Ansible",
-  "date": "Mar 2025",
-  "description": "Implemented an automated website deployment on multiple EC2 instances using Ansible Playbooks. The setup includes Apache installation, website deployment from GitHub, and efficient configuration management across remote servers. Ensured high availability and scalability with redundant web servers.",
-  "image": "/ansibleproject.png",
-  "tags": [
-    "AWS",
-    "Ansible",
-    "EC2",
-    "Automation",
-    "Apache",
-    "DevOps",
-    //"Infrastructure as Code",
-    //"Scalability",
-    "Cloud Deployment",
-    //"Configuration Management"
-  ],
-  "category": "cloud",
-  "github": "https://github.com/Kartikk-26/Multi-Server-AutoDeploy-with-Ansible",
-  "webapp": "https://watches.kartik.sbs/",
-},
-{
-  "id": 7,
-  "title": "Secure Scalable AWS VPC Network",
-  "date": "Mar 2025",
-  "description": "Designed and deployed a secure and scalable AWS Virtual Private Cloud (VPC) with custom subnets, NAT and Internet Gateways, VPC Peering, and private database hosting for controlled access and efficient networking. Implemented subnet segmentation, security configurations, and inter-region connectivity while ensuring high availability and security.",
-  "image": "/VPC Working .jpg",
-  "tags": [
-    "AWS",
-    "VPC",
-    "VPC Peering",
-    "Networking",
-    "Security",
-    "Cloud",
-    //"Infrastructure",
-    //"DevOps",
-    "Automation"
-  ],
-  "category": "cloud",
-  "github": "https://github.com/Kartikk-26/Secure-Scalable-AWS-VPC-Network.git",
-  "webapp": "https://new.kartikk.site/"
-},
-{
-  "id": 8,
-  "title": "Automated Image Resizing and Transfer System",
-  "date": "Mar 2025",
-  "description": "Built a serverless image resizing system using AWS services. Users upload images to an S3 bucket, triggering an AWS Lambda function that processes and resizes the images. The resized images are stored in a separate S3 bucket, and Amazon SNS sends email notifications upon completion. CloudWatch ensures monitoring, while IAM roles enforce security, delivering a scalable, automated, and cost-efficient solution.",
-  "image": "/Overview.jpg",
-  "tags": [
-    "AWS",
-    "Lambda",
-    "S3 Bucket",
-    "SNS",
-    "Python",
-    "CloudWatch",
-    "Automation",
-    "DevOps"
-  ],
-  "category": "cloud",
-  "github": "https://github.com/Kartikk-26/AWS-AutoResize-Transfer-System.git",
-  "webapp": "https://kartik.sbs/"
-},
-{
-  "id": 9,
-  "title": "Django Application Deployment with Gunicorn and Nginx",
-  "date": "Mar 2025",
-  "description": "Successfully deployed a Django application on Ubuntu 22.04 by configuring Gunicorn as the application server and Nginx as the reverse proxy. The project involved setting up a secure, scalable, and production-ready environment with systemd for managing Gunicorn, UFW for firewall security, and Certbot for enabling HTTPS. This process improved application performance, ensured security, and optimized resource management.",
-  "image": "/Django_deployment.png",
-  "tags": [
-    "Django",
-    "Gunicorn",
-    "Nginx",
-    "Ubuntu",
-    "Certbot",
-    "DevOps",
-    "Web Deployment",
-    "SSL"
-  ],
-  "category": "web",
-  "github": "https://github.com/Kartikk-26/Django-Application-Deployment-on-EC2.git",
-  "webapp": "https://kartik.sbs/"
-},
-{
-  "id": 10,
-  "title": "WordPress Deployment on Kubernetes Cluster",
-  "date": "Mar 2025",
-  "description": "Successfully deployed a WordPress application on a Kubernetes cluster with MySQL as the backend. The project involved setting up Kubernetes on Ubuntu 22.04 using kubeadm, configuring namespaces, deployments, services, and ConfigMaps. It ensured secure communication, scalability, and seamless interaction between WordPress and MySQL, with NodePort allowing external access to the application.",
-  "image": "/k8.jpg",
-  "tags": [
-    "WordPress",
-    "MySQL",
-    "Kubernetes",
-    "kubeadm",
-    "ConfigMap",
-    "DevOps",
-    "Container Orchestration",
-    "Web Deployment"
-  ],
-  "category": "cloud",
-  "github": "https://github.com/Kartikk-26/WordPress-Deployment-on-K8s.git",
-  "webapp": "https://github.com/Kartikk-26/WordPress-Deployment-on-K8s.git"
-}
+
+
+
 
 
 
