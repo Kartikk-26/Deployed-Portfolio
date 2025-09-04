@@ -1,7 +1,7 @@
 {
   "name": "kartik-jain-portfolio",
   "version": "0.1.0",
-  "homepage": "https://kartikk-26.github.io/Deployed-Portfolio/",
+  "homepage": "https://kartik.site/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
