@@ -1,9 +1,7 @@
 export const Bio = {
   name: "Kartik Jain",
   roles: [
-    "Backend Developer",
-    "Frontend Developer",
-    "Devops Engineer",
+    "DevOps Engineer",
   ],
   description:
     "I’m a DevOps Engineer who optimizes Development, Deployment and Server Management with Ansible, AWS, Docker, Kubernetes, and Linux. I handle CI/CD pipelines, cloud integration, and container orchestration like a pro. With Full-Stack skills in MERN, I ensure smooth app performance from frontend to backend.",
