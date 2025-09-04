@@ -6,7 +6,7 @@ export const Bio = {
     "Devops Engineer",
   ],
   description:
-    "I’m a DevOps Engineer who optimizes Development, Deployment and Server Management with Ansible, AWS, Docker, Kubernetes, and Linux. I handle CI/CD pipelines, cloud integration, and container orchestration like a pro. With full-stack skills in MERN, I ensure smooth app performance from frontend to backend.",
+    "I’m a DevOps Engineer who optimizes Development, Deployment and Server Management with Ansible, AWS, Docker, Kubernetes, and Linux. I handle CI/CD pipelines, cloud integration, and container orchestration like a pro. With Full-Stack skills in MERN, I ensure smooth app performance from frontend to backend.",
   github: "https://github.com/Kartikk-26",
   resume: "https://kartikjain.netlify.app/",
   linkedin: "https://www.linkedin.com/in/-kartikjain/",
